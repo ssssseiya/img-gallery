@@ -1,4 +1,5 @@
 import { z } from 'zod'
+//import some values from zod database
 
 const BasicImageSchema = z.object({
     page: z.number(),
